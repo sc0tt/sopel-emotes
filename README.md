@@ -10,6 +10,7 @@ Features:
 Future Tasks:
 - Caching
 
+
 ## Installing
 
 Releases are hosted on PyPI, so after installing Sopel, all you need is `pip`:
