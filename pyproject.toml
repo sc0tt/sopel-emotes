@@ -15,7 +15,7 @@ readme = { file=["README.md", "NEWS"], content-type="text/markdown" }
 [project]
 name = "sopel-emotes"
 version = "1.0.0"
-description = "Searches for emotes, denoted by `:emote_name:` from multiple sources and links the associated image url."
+description = "Searches for emotes, denoted by `:emote_name:` from multiple sources (FFZ/BTTV/7TV) and links the associated image urls."
 
 authors = [
   { name="Scott Adie", email="spl@adie.io" },

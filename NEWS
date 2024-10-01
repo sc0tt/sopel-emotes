@@ -3,3 +3,13 @@
 ### 1.0.0
 
 First release of `sopel-emotes`.
+
+Supported sources:
+- BTTV
+- FFZ
+- 7TV
+
+Supported sizes:
+- small
+- medium
+- large

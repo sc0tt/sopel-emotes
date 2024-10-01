@@ -23,3 +23,11 @@ $ pip install sopel-emotes
 The easiest way to configure `sopel-emotes` is via Sopel's
 configuration wizard—simply run `sopel-plugins configure emotes`
 and enter the values for which it prompts you.
+
+### Manual configuration
+
+```ini
+[emotes]
+sources = ffz, bttv # Available options: [7tv, ffz, bttv]. Order determines priority.
+size = large # small, medium, or large
+```
