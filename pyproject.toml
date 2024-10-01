@@ -18,7 +18,7 @@ version = "1.0.0"
 description = "Searches for emotes, denoted by `:emote_name:` from multiple sources (FFZ/BTTV/7TV) and links the associated image urls."
 
 authors = [
-  { name="Scott Adie", email="spl@adie.io" },
+  { name="Scott Adie", email="scott@adie.io" },
 ]
 
 license = { text="EFL-2.0" }
