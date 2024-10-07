@@ -90,11 +90,11 @@ SEARCH_FUNCTIONS = {
 def configure(config):
     """Configure the emote finder settings."""
     config.define_section('emotes', EmoteConfig)
-    config.emotes.configure_setting('sources', 'List of emote sources (default: ffz, bttv)')
+    config.emotes.configure_setting('sources', 'List of emote sources (default: bttv, ffz)')
     config.emotes.configure_setting('size', 'Emote size (small, medium, large) (default: large)')
 
 class EmoteConfigSection(sopel.config.types.StaticSection):
-    sources = sopel.config.types.ListAttribute('sources', default=['ffz', 'bttv'])
+    sources = sopel.config.types.ListAttribute('sources', default=['bttv', 'ffz'])
     size = sopel.config.types.ChoiceAttribute('size', default='large', choices=['small', 'medium', 'large'])
 
 def setup(bot):

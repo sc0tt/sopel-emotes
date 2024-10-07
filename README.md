@@ -29,6 +29,6 @@ and enter the values for which it prompts you.
 
 ```ini
 [emotes]
-sources = ffz, bttv # Available options: [7tv, ffz, bttv]. Order determines priority.
+sources = bttv, ffz # Available options: [7tv, ffz, bttv]. Order determines priority.
 size = large # small, medium, or large
 ```
